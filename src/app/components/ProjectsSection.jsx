@@ -64,7 +64,7 @@ const projectsData = [
     title: "Lorem Impsum Bacon",
     description: "Bacon ipsum dolor amet hamburger salami landjaeger ham beef ribs. Chislic meatball venison buffalo rump. Boudin pancetta bacon biltong, sausage pig doner kevin shank.",
     image: "/images/project_7.png",
-    tag: ["All NIFTI", "Other"],
+    tag: ["All NIFTI", "Other Projects"],
     gitUrl: "tbd",
     previewUrl: "/",
   },
@@ -73,7 +73,7 @@ const projectsData = [
     title: "Lorem Ipsum Pancetta",
     description: "Bacon ipsum dolor amet hamburger salami landjaeger ham beef ribs. Chislic meatball venison buffalo rump. Boudin pancetta bacon biltong, sausage pig doner kevin shank.",
     image: "/images/project_8.jpg",
-    tag: ["All NIFTI", "Other"],
+    tag: ["All NIFTI", "Other Projects"],
     gitUrl: "tbd",
     previewUrl: "https://drive.google.com/file/d/1OpNc-y5iGxpcQm_SUkthlCeZW4t91YMD/view?usp=drivesdk",
   }
@@ -115,7 +115,7 @@ const ProjectsSection = () => {
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Other"
+          name="Other Projects"
           isSelected={tag === "ML Projects"}
         />
       </div>
