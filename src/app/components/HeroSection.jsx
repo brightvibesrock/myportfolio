@@ -4,47 +4,66 @@ import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import TabButton from "./TabButton";
 // import resume from "../../../public/images/Resum.pdf"
 
 const HeroSection = () => {
   return (
     <section className="lg:py-24">
-      <div className="grid grid-cols-1 sm:grid-cols-12">
+      <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
+        
+      <motion.div
+          initial={{ opacity: 0, scale: 0.5 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.5 }}
+          className="col-span-4 place-self-center mt-4"
+  
+        >
+          <div className="rounded-full bg-[white] w-[200px] h-[200px] lg:w-[250px] lg:h-[250px] relative">
+            <Image
+              src="/images/JennyCircle.png"
+              alt="jenny image"
+              className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+              width={500}
+              height={400}
+            />
+          </div>
+        </motion.div>
+        <br></br>
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
           className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
         >
-          <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
+          <h1 className="text-white mb-4 text-4xl sm:text-4xl lg:text-4xl lg:leading-normal font-extrabold">
             <span className="text-white bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
-              Hello, I&apos;m{" "}
+              Hello, I&apos;m  {" "}
             </span>
             <br></br>
             <TypeAnimation
               sequence={[
-                "Kunal Passan",
+                "Jenny Dolan.",
                 2000,
-                "Web Developer",
+                " a deep work enthusiast and flow state obsessed.",
                 2000,
-                "UI/UX Designer",
+                " a believer in focused product work and team empowerment.",
                 2000,
-                "AI Data Analyst",
-                2000,
+                " energized when TRUST within a team fuels a greater sense of shared purpose."
               ]}
               wrapper="span"
               speed={50}
-              repeat={Infinity}
+              repeat={0}
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            A passionate Next web developer based in Gurugram, Haryana. I create bespoke websites to help people go further online.
+          I have 15+ years as a technical leader with a successful track record in delivering platform capabilities which enable software engineering organizations to deliver performant, stable, and reliable experiences into the hands of digital customers. I love all things NIFTI. NIFTI stands for Neat Innovation For Technology and Interesting Things! A super catchy acronym that embodies the spirit of cutting-edge and engaging developments in technology.
           </p>
           <div>
             <Link
               href="/#projects"
               className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3">
-              My Projects
+              NIFTI Stuff
             </Link>
             <Link
               href="Resume.pdf"  target="_blank"
@@ -56,24 +75,11 @@ const HeroSection = () => {
             </Link>
           </div>
         </motion.div>
-        <motion.div
-          initial={{ opacity: 0, scale: 0.5 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.5 }}
-          className="col-span-4 place-self-center mt-4 lg:mt-0"
-        >
-          <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
-            <Image
-              src="/images/avatar_aigen.png"
-              alt="hero image"
-              className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-              width={500}
-              height={400}
-            />
-          </div>
-        </motion.div>
+       
       </div>
     </section>
+
+    
   );
 };
 

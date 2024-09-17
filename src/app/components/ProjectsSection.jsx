@@ -10,7 +10,7 @@ const projectsData = [
     title: "Flix",
     description: "Flix, a movie experience website, where all the latest movies from netflix are available to choose from.",
     image: "/images/project_1.png",
-    tag: ["All Projects", "Web Projects"],
+    tag: ["All NIFTI", "Web Projects"],
     gitUrl: "https://github.com/kazekunal/flix",
     previewUrl: "https://flix-2gslfzebm-kazekunal.vercel.app/",
   },
@@ -19,7 +19,7 @@ const projectsData = [
     title: "PharmLink+",
     description: "The future of secure healthcare, our blockchain-powered system is revolutionizing medical prescription management, eliminating fraud and ensuring patient safety with unparalleled transparency and accountability.",
     image: "/images/project_2.png",
-    tag: ["All Projects", "Web Projects"],
+    tag: ["All NIFTI", "Web Projects"],
     gitUrl: "https://github.com/kazekunal/hackathon",
     previewUrl: "/",
   },
@@ -28,7 +28,7 @@ const projectsData = [
     title: "BuzzJob",
     description: "BuzzJobs is a job portal built using Next.js and SQL, designed to streamline the job search process for both job seekers and employers.",
     image: "/images/project_3.png",
-    tag: ["All Projects", "Web Projects"],
+    tag: ["All NIFTI", "Web Projects"],
     gitUrl: "https://github.com/kazekunal/buzz_job",
     previewUrl: "https://buzzjob.vercel.app/",
   },
@@ -37,7 +37,7 @@ const projectsData = [
     title: "Breeze'24 - Circa'72, University Fest",
     description: "A full stack application where attendees could effortlessly register and make payments for various events for my University's Festival. Focusing on the intricate development of distinct user roles, the e-commerce functionality, and the robust backend architecture.",
     image: "/images/project_4.png",
-    tag: ["All Projects", "Web Projects"],
+    tag: ["All NIFTI", "Web Projects"],
     gitUrl: "https://github.com/thearyanthegr8/Breeze2024",
     previewUrl: "https://www.instagram.com/p/C2acIihvtY6/",
   },
@@ -46,7 +46,7 @@ const projectsData = [
     title: "sentiment_Analysis",
     description: "We've conducted a sentiment analysis on the dataset, which classifies each tweet into categories such as positive, negative, or neutral sentiment. The analysis provides valuable insights into the public's emotional responses and opinions regarding the G20 Summit.",
     image: "/images/project_5.png",
-    tag: ["All Projects", "ML Projects"],
+    tag: ["All NIFTI", "ML Projects"],
     gitUrl: "https://github.com/kazekunal/sentiment_Analysis",
     previewUrl: "https://drive.google.com/uc?id=1sD1OjdYvKoPuZMyPe_bBi0CqBb42OrkR&export=download",
   },
@@ -55,7 +55,7 @@ const projectsData = [
     title: "Finvest, finance-tech club",
     description: "Welcome to the exciting world of Finvest, where finance becomes an exhilarating adventure rather than a daunting mystery! We're not your average finance club– at Finvest, we're on a mission to unleash the power of financial literacy and make it accessible to everyone.",
     image: "/images/project_6.png",
-    tag: ["All Projects", "Web Projects"],
+    tag: ["All NIFTI", "Web Projects"],
     gitUrl: "https://github.com/kazekunal/finvest-website",
     previewUrl: "https://finvestsnu.vercel.app/",
   },
@@ -64,7 +64,7 @@ const projectsData = [
     title: "Sales Forecast",
     description: "This project utilizes Linear Regression, a fundamental machine learning algorithm, to predict the number of items sold in various stores. We use a comprehensive training dataset that includes 900,000 data points, each detailing the date, item, store, and the quantity of items sold. The goal is to provide accurate sales forecasts that can help in inventory management and marketing strategies.",
     image: "/images/project_7.png",
-    tag: ["All Projects", "ML Projects"],
+    tag: ["All NIFTI", "ML Projects"],
     gitUrl: "https://github.com/kazekunal/Sales_forecast",
     previewUrl: "/",
   },
@@ -73,14 +73,14 @@ const projectsData = [
     title: "Handsign-Recognition",
     description: "This project implements a real-time hand gesture recognition system using a webcam. The system segments the hand region from the background and displays the thresholded hand image and the contours of the hand.",
     image: "/images/project_8.jpg",
-    tag: ["All Projects", "ML Projects"],
+    tag: ["All NIFTI", "ML Projects"],
     gitUrl: "https://github.com/kazekunal/Handsign-Recognition",
     previewUrl: "https://drive.google.com/file/d/1OpNc-y5iGxpcQm_SUkthlCeZW4t91YMD/view?usp=drivesdk",
   }
 ];
 
 const ProjectsSection = () => {
-  const [tag, setTag] = useState("All Projects");
+  const [tag, setTag] = useState("All NIFTI");
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
 
@@ -100,13 +100,13 @@ const ProjectsSection = () => {
   return (
     <section id="projects">
       <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
-        My Projects
+        Neat Innovation For Technology and Interests (NIFTI)
       </h2>
       <div className="text-white flex flex-row justify-center items-center gap-1 py-6">
         <ProjectTag 
           onClick={handleTagChange}
-          name="All Projects"
-          isSelected={tag === "All Projects"}
+          name="All NIFTI"
+          isSelected={tag === "All NIFTI"}
         />
         <ProjectTag
           onClick={handleTagChange}
