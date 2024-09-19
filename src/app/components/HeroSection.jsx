@@ -56,7 +56,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] sm:text-2xl mb-6 lg:text-2xl py-0.5">
-          I have 15+ years as a technical leader with a successful track record in delivering platform capabilities which enable software engineering organizations to deliver performant, stable, and reliable experiences into the hands of digital customers. I love all things NIFTI. NIFTI is my own person projects and templates OR "Neat Innovation For Technology and Interests" NIFTI embodies the spirit of cutting-edge and engaging developments in technology that I am learning.
+          I have about 15 years as a technical leader with a successful track record in delivering platform capabilities which enable software engineering organizations to deliver performant, stable, and reliable experiences into the hands of digital customers. I love all things NIFTI. NIFTI is my own person projects and templates OR "Neat Innovation For Technology and Interests" NIFTI embodies the spirit of cutting edge and engaging developments in technology that I am learning.
           </p>
           <div>
             <Link

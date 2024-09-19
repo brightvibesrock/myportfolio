@@ -8,7 +8,7 @@ const projectsData = [
   {
     id: 1,
     title: "Photography",
-    description: "This is a travel mosaic of some cool photos!",
+    description: "This is a template of a travel mosaic with integration with cloudinary media library photos.",
     image: "/images/project_1.jpeg",
     tag: ["All NIFTI", "Responsive Apps"],
     gitUrl: "https://github.com/brightvibesrock/image-gallery-starter",
@@ -35,7 +35,7 @@ const projectsData = [
   {
     id: 4,
     title: "Web Profile Page, Readme and Resume",
-    description: "This a great profile template, its really low code and super easy to git clone and customize. Thanks to beyondcodebootcamp for the resume template!",
+    description: "This a great profile template, its really low code and super easy to git clone and customize. Thanks to beyondcodebootcamp for the resume template.",
     image: "/images/project_4.png",
     tag: ["All NIFTI", "Responsive Apps"],
     gitUrl: "https://github.com/brightvibesrock/myresume",
