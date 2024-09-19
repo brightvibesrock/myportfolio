@@ -34,8 +34,8 @@ const projectsData = [
   },
   {
     id: 4,
-    title: "Resume Template",
-    description: "This a great resume template, huge thanks to beyondcodebootcamp.",
+    title: "Web Profile Page, Readme and Resume",
+    description: "This a great profile template, its really low code and super easy to git clone and customize. Thanks to beyondcodebootcamp for the resume template!",
     image: "/images/project_4.png",
     tag: ["All NIFTI", "Responsive Apps"],
     gitUrl: "https://github.com/brightvibesrock/myresume",
@@ -100,7 +100,9 @@ const ProjectsSection = () => {
   return (
     <section id="projects">
       <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
+        <br></br>
         Neat Innovation For Technology and Interests (NIFTI)
+        <br></br>
       </h2>
       <div className="text-white flex flex-row justify-center items-center gap-1 py-6">
         <ProjectTag 
