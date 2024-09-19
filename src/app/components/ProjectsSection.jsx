@@ -10,7 +10,7 @@ const projectsData = [
     title: "Photography",
     description: "This is a travel mosaic of some cool photos!",
     image: "/images/project_1.jpeg",
-    tag: ["All NIFTI", "Web Projects"],
+    tag: ["All NIFTI", "Responsive Apps"],
     gitUrl: "https://github.com/brightvibesrock/image-gallery-starter",
     previewUrl: "https://image-gallery-starter-git-main-brightvibesrocks-projects.vercel.app/",
   },
@@ -19,7 +19,7 @@ const projectsData = [
     title: "Matrix Rain",
     description: "Fun animation using Canva and HTML5.",
     image: "/images/project_2.png",
-    tag: ["All NIFTI", "Web Projects"],
+    tag: ["All NIFTI", "Responsive Apps"],
     gitUrl: "https://github.com/brightvibesrock/neorain",
     previewUrl: "https://brightvibesrock.github.io/neorain/",
   },
@@ -28,7 +28,7 @@ const projectsData = [
     title: "ReactJS, Foundations",
     description: "This is a beginner tutorial of a reactjs ToDoList app.",
     image: "/images/project_3.png",
-    tag: ["All NIFTI", "Web Projects"],
+    tag: ["All NIFTI", "Responsive Apps"],
     gitUrl: "https://github.com/brightvibesrock/reactjs-todo-101",
     previewUrl: "https://brightvibesrock-todolist.netlify.app/",
   },
@@ -37,7 +37,7 @@ const projectsData = [
     title: "Resume Template",
     description: "This a great resume template, huge thanks to beyondcodebootcamp.",
     image: "/images/project_4.png",
-    tag: ["All NIFTI", "Web Projects"],
+    tag: ["All NIFTI", "Responsive Apps"],
     gitUrl: "https://github.com/brightvibesrock/myresume",
     previewUrl: "https://brightvibesrock.github.io/myresume/",
   },
@@ -45,37 +45,37 @@ const projectsData = [
     id: 5,
     title: "Github Readme Streak Stats",
     description: "Elevate your github readme profile with some cool stats!",
-    tag: ["All NIFTI", "Web Projects"],
+    tag: ["All NIFTI", "Responsive Apps"],
     image: "/images/project_5.png",
     gitUrl: "https://github.com/brightvibesrock/github-readme-streak-stats",
     previewUrl: "https://github.com/brightvibesrock/brightvibes/blob/main/README.md/",
   },
   {
     id: 6,
-    title: "Lorem Ipsum Hamburger",
+    title: "Machine Learning",
     description: "Bacon ipsum dolor amet hamburger salami landjaeger ham beef ribs. Chislic meatball venison buffalo rump. Boudin pancetta bacon biltong, sausage pig doner kevin shank.",
     image: "/images/project_6.png",
-    tag: ["All NIFTI", "Web Projects"],
-    gitUrl: "tbd",
-    previewUrl: "https://finvestsnu.vercel.app/",
+    tag: ["All NIFTI", "Coming Soon"],
+    gitUrl: "coming soon...",
+    previewUrl: "/",
   },
   {
     id: 7,
-    title: "Lorem Impsum Bacon",
+    title: "Stripe - Credit Card Payment",
     description: "Bacon ipsum dolor amet hamburger salami landjaeger ham beef ribs. Chislic meatball venison buffalo rump. Boudin pancetta bacon biltong, sausage pig doner kevin shank.",
     image: "/images/project_7.png",
-    tag: ["All NIFTI", "Other Projects"],
-    gitUrl: "tbd",
+    tag: ["All NIFTI", "Coming Soon"],
+    gitUrl: "coming soon...",
     previewUrl: "/",
   },
   {
     id: 8,
-    title: "Lorem Ipsum Pancetta",
+    title: "Calendar",
     description: "Bacon ipsum dolor amet hamburger salami landjaeger ham beef ribs. Chislic meatball venison buffalo rump. Boudin pancetta bacon biltong, sausage pig doner kevin shank.",
-    image: "/images/project_8.jpg",
-    tag: ["All NIFTI", "Other Projects"],
-    gitUrl: "tbd",
-    previewUrl: "https://drive.google.com/file/d/1OpNc-y5iGxpcQm_SUkthlCeZW4t91YMD/view?usp=drivesdk",
+    image: "/images/project_8.png",
+    tag: ["All NIFTI", "Coming Soon"],
+    gitUrl: "coming soon...",
+    previewUrl: "/",
   }
 ];
 
@@ -110,12 +110,12 @@ const ProjectsSection = () => {
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Web Projects"
+          name="Responsive Apps"
           isSelected={tag === "Web Projects"}
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Other Projects"
+          name="Coming Soon"
           isSelected={tag === "ML Projects"}
         />
       </div>
