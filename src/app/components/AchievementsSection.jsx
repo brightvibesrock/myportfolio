@@ -16,7 +16,7 @@ const achievementsList = [
     
   },
   {
-    metric: "My Tech Highlights",
+    metric: "My Tech Stack",
     value: "30",
     postfix: "+",
   },
@@ -26,7 +26,7 @@ const achievementsList = [
     postfix: "+",
   },
   {
-    metric: "Years",
+    metric: "Years Experience",
     value: "15",
     postfix: "+",
   },
@@ -42,7 +42,7 @@ const AchievementsSection = () => {
               key={index}
               className="flex flex-col items-center justify-center mx-4 my-4 sm:my-0"
             >
-              <h2 className="text-white text-4xl font-bold flex flex-row">
+              <h2 className="text-white text-3xl font-bold flex flex-row">
                 {achievement.prefix}
                 <AnimatedNumbers
                   includeComma
@@ -52,7 +52,7 @@ const AchievementsSection = () => {
                     type: "spring",
                     duration: index + 0.3,
                   })}
-                  className="text-white text-4xl font-bold"
+                  className="text-white text-3xl font-bold"
                   configs={(_, index) => {
                     return {
                       mass: 1,
