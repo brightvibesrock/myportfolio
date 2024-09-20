@@ -11,7 +11,7 @@ const navLinks = [
     path: "#herosection",
   },
   {
-    title: "NIFTY Stuff",
+    title: "Projects",
     path: "#projects",
   },
   {
