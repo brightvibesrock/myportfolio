@@ -56,7 +56,9 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] sm:text-2xl mb-6 lg:text-2xl py-0.5">
-          My full time job is working as a technical leader to deliver platform capabilities which enable internal software engineering organizations to deliver performant, stable, and reliable experiences into the hands of digital customers. I also pair up with folk that have disabilities and train them on how to support job seekers to create online profiles and personal sites. NIFTY stands for "Neat Innovations For Transforming You".
+            During the day, I lead teams that deliver platform capabilities that help internal software engineering organizations to build performant, stable, and reliable digital experiences for their customers. 
+            
+            Also, I am passionate about a new venture called NIFTY (Neat Innovations For Transforming You). I am partnering with the Maine Department of Labor to develop a curriculum that trains individuals with disabilities to create personal marketing platforms for job seekers. In today's job market, having an online presence is essential to landing interviews. I am excited to help this workforce develop the skills needed to succeed in helping others.
           </p>
           <div>
             <Link

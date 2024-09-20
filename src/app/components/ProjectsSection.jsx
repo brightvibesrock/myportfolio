@@ -115,7 +115,7 @@ const cardVariants = {
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="ML Projects"
+          name="Coming Soon"
           isSelected={tag === "Coming Soon"}
         />
       </div>
