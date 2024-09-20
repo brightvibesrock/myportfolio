@@ -7,8 +7,8 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "Photography",
-    description: "This is a template of a travel mosaic with integration with cloudinary media library photos.",
+    title: "Personal Photography",
+    description: "This is a template of a travel mosaic that has dynamic integration with your cloudinary media library photos.",
     image: "/images/project_1.jpeg",
     tag: ["All NIFTI", "Responsive Apps"],
     gitUrl: "https://github.com/brightvibesrock/image-gallery-starter",
@@ -25,7 +25,7 @@ const projectsData = [
   },
   {
     id: 3,
-    title: "ReactJS, Foundations",
+    title: "ReactJS and Foundations",
     description: "This is a beginner tutorial of a reactjs ToDoList app.",
     image: "/images/project_3.png",
     tag: ["All NIFTI", "Responsive Apps"],
@@ -34,7 +34,7 @@ const projectsData = [
   },
   {
     id: 4,
-    title: "Web Profile Page, Readme and Resume",
+    title: "Personal Profile site with how to Readme and Resume",
     description: "This a great profile template, its really low code and super easy to git clone and customize. Thanks to beyondcodebootcamp for the resume template.",
     image: "/images/project_4.png",
     tag: ["All NIFTI", "Responsive Apps"],
@@ -44,7 +44,7 @@ const projectsData = [
   {
     id: 5,
     title: "Github Readme Streak Stats",
-    description: "Elevate your github readme profile with some cool stats!",
+    description: "Elevate your github readme profile with some cool stats.",
     tag: ["All NIFTI", "Responsive Apps"],
     image: "/images/project_5.png",
     gitUrl: "https://github.com/brightvibesrock/github-readme-streak-stats",
@@ -56,53 +56,51 @@ const projectsData = [
     description: "Bacon ipsum dolor amet hamburger salami landjaeger ham beef ribs. Chislic meatball venison buffalo rump. Boudin pancetta bacon biltong, sausage pig doner kevin shank.",
     image: "/images/project_6.png",
     tag: ["All NIFTI", "Coming Soon"],
-    gitUrl: "coming soon...",
-    previewUrl: "/",
+    gitUrl: "https://github.com/brightvibesrock",
+    previewUrl: "https://vercel.com/",
   },
   {
     id: 7,
-    title: "Stripe - Credit Card Payment",
+    title: "Stripe for Credit Card Payment",
     description: "Bacon ipsum dolor amet hamburger salami landjaeger ham beef ribs. Chislic meatball venison buffalo rump. Boudin pancetta bacon biltong, sausage pig doner kevin shank.",
     image: "/images/project_7.png",
     tag: ["All NIFTI", "Coming Soon"],
-    gitUrl: "coming soon...",
-    previewUrl: "/",
+    gitUrl: "https://github.com/brightvibesrock",
+    previewUrl: "https://vercel.com/",
   },
-  {
-    id: 8,
-    title: "Calendar",
-    description: "Bacon ipsum dolor amet hamburger salami landjaeger ham beef ribs. Chislic meatball venison buffalo rump. Boudin pancetta bacon biltong, sausage pig doner kevin shank.",
-    image: "/images/project_8.png",
-    tag: ["All NIFTI", "Coming Soon"],
-    gitUrl: "coming soon...",
-    previewUrl: "/",
-  }
+{
+  id: 8,
+  title: "Calendar",
+  description:  "Bacon ipsum dolor amet hamburger salami landjaeger ham beef ribs. Chislic meatball venison buffalo rump. Boudin pancetta bacon biltong, sausage pig doner kevin shank.",
+  image: "/images/project_8.png",
+  tag: ["All NIFTI", "Coming Soon"],
+  gitUrl: "https://github.com/brightvibesrock",
+  previewUrl: "https://vercel.com/",
+}
 ];
 
 const ProjectsSection = () => {
-  const [tag, setTag] = useState("All NIFTI");
-  const ref = useRef(null);
-  const isInView = useInView(ref, { once: true });
+const [tag, setTag] = useState("All NIFTI");
+const ref = useRef(null);
+const isInView = useInView(ref, { once: true });
 
-  const handleTagChange = (newTag) => {
-    setTag(newTag);
-  };
+const handleTagChange = (newTag) => {
+  setTag(newTag);
+};
 
-  const filteredProjects = projectsData.filter((project) =>
-    project.tag.includes(tag)
-  );
+const filteredProjects = projectsData.filter((project) =>
+  project.tag.includes(tag)
+);
 
-  const cardVariants = {
-    initial: { y: 50, opacity: 0 },
-    animate: { y: 0, opacity: 1 },
-  };
+const cardVariants = {
+  initial: { y: 50, opacity: 0 },
+  animate: { y: 0, opacity: 1 },
+};
 
   return (
     <section id="projects">
       <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
-        <br></br>
-        Neat Innovation For Technology and Interests (NIFTI)
-        <br></br>
+        My Projects
       </h2>
       <div className="text-white flex flex-row justify-center items-center gap-1 py-6">
         <ProjectTag 
@@ -113,12 +111,12 @@ const ProjectsSection = () => {
         <ProjectTag
           onClick={handleTagChange}
           name="Responsive Apps"
-          isSelected={tag === "Web Projects"}
+          isSelected={tag === "Responsive Apps"}
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Coming Soon"
-          isSelected={tag === "ML Projects"}
+          name="ML Projects"
+          isSelected={tag === "Coming Soon"}
         />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
