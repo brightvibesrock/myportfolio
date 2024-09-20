@@ -56,13 +56,13 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] sm:text-2xl mb-6 lg:text-2xl py-0.5">
-          I have about 15 years as a technical leader with a successful track record in delivering platform capabilities which enable software engineering organizations to deliver performant, stable, and reliable experiences into the hands of digital customers. I love all things NIFTI. NIFTI is my own person projects and templates OR "Neat Innovation For Technology and Interests" NIFTI embodies the spirit of cutting edge and engaging developments in technology that I am learning.
+          My full time job is working as a technical leader to deliver platform capabilities which enable internal software engineering organizations to deliver performant, stable, and reliable experiences into the hands of digital customers. I also pair up with folk that have disabilities and train them on how to support job seekers to create online profiles and personal sites. NIFTY stands for "Neat Innovations For Transforming You".
           </p>
           <div>
             <Link
               href="/#projects"
               className="px-6 inline-block py-3 w-full sm:w-fit text-2xl font-bold rounded-full mr-4 bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3">
-              NIFTI Stuff
+              NIFTY Stuff
             </Link>
             <Link
               href="Resume.pdf"  target= "blank"
