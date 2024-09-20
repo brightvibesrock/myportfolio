@@ -11,7 +11,7 @@ const AnimatedNumbers = dynamic(
 
 const achievementsList = [
   {
-    metric: "NIFTI STUFF",
+    metric: "NIFTY STUFF",
     value: "9",
     
   },

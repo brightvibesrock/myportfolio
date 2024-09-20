@@ -10,7 +10,7 @@ const projectsData = [
     title: "Personal Photography",
     description: "This is a template of a travel mosaic that has dynamic integration with your cloudinary media library photos.",
     image: "/images/project_1.jpeg",
-    tag: ["All NIFTI", "Responsive Apps"],
+    tag: ["All NIFTY", "Responsive Apps"],
     gitUrl: "https://github.com/brightvibesrock/image-gallery-starter",
     previewUrl: "https://image-gallery-starter-git-main-brightvibesrocks-projects.vercel.app/",
   },
@@ -19,7 +19,7 @@ const projectsData = [
     title: "Matrix Rain",
     description: "Fun animation using Canva and HTML5.",
     image: "/images/project_2.png",
-    tag: ["All NIFTI", "Responsive Apps"],
+    tag: ["All NIFTY", "Responsive Apps"],
     gitUrl: "https://github.com/brightvibesrock/neorain",
     previewUrl: "https://brightvibesrock.github.io/neorain/",
   },
@@ -28,7 +28,7 @@ const projectsData = [
     title: "ReactJS and Foundations",
     description: "This is a beginner tutorial of a reactjs ToDoList app.",
     image: "/images/project_3.png",
-    tag: ["All NIFTI", "Responsive Apps"],
+    tag: ["All NIFTY", "Responsive Apps"],
     gitUrl: "https://github.com/brightvibesrock/reactjs-todo-101",
     previewUrl: "https://brightvibesrock-todolist.netlify.app/",
   },
@@ -37,7 +37,7 @@ const projectsData = [
     title: "Personal Profile site with how to Readme and Resume",
     description: "This a great profile template, its really low code and super easy to git clone and customize. Thanks to beyondcodebootcamp for the resume template.",
     image: "/images/project_4.png",
-    tag: ["All NIFTI", "Responsive Apps"],
+    tag: ["All NIFTY", "Responsive Apps"],
     gitUrl: "https://github.com/brightvibesrock/myresume",
     previewUrl: "https://brightvibesrock.github.io/myresume/",
   },
@@ -45,7 +45,7 @@ const projectsData = [
     id: 5,
     title: "Github Readme Streak Stats",
     description: "Elevate your github readme profile with some cool stats.",
-    tag: ["All NIFTI", "Responsive Apps"],
+    tag: ["All NIFTY", "Responsive Apps"],
     image: "/images/project_5.png",
     gitUrl: "https://github.com/brightvibesrock/github-readme-streak-stats",
     previewUrl: "https://github.com/brightvibesrock/brightvibes/blob/main/README.md/",
@@ -55,7 +55,7 @@ const projectsData = [
     title: "Machine Learning",
     description: "Bacon ipsum dolor amet hamburger salami landjaeger ham beef ribs. Chislic meatball venison buffalo rump. Boudin pancetta bacon biltong, sausage pig doner kevin shank.",
     image: "/images/project_6.png",
-    tag: ["All NIFTI", "Coming Soon"],
+    tag: ["All NIFTY", "Coming Soon"],
     gitUrl: "https://github.com/brightvibesrock",
     previewUrl: "https://vercel.com/",
   },
@@ -64,7 +64,7 @@ const projectsData = [
     title: "Stripe for Credit Card Payment",
     description: "Bacon ipsum dolor amet hamburger salami landjaeger ham beef ribs. Chislic meatball venison buffalo rump. Boudin pancetta bacon biltong, sausage pig doner kevin shank.",
     image: "/images/project_7.png",
-    tag: ["All NIFTI", "Coming Soon"],
+    tag: ["All NIFTY", "Coming Soon"],
     gitUrl: "https://github.com/brightvibesrock",
     previewUrl: "https://vercel.com/",
   },
@@ -73,7 +73,7 @@ const projectsData = [
   title: "Calendar",
   description:  "Bacon ipsum dolor amet hamburger salami landjaeger ham beef ribs. Chislic meatball venison buffalo rump. Boudin pancetta bacon biltong, sausage pig doner kevin shank.",
   image: "/images/project_8.png",
-  tag: ["All NIFTI", "Coming Soon"],
+  tag: ["All NIFTY", "Coming Soon"],
   gitUrl: "https://github.com/brightvibesrock",
   previewUrl: "https://vercel.com/",
 }
@@ -105,7 +105,7 @@ const cardVariants = {
       <div className="text-white flex flex-row justify-center items-center gap-1 py-6">
         <ProjectTag 
           onClick={handleTagChange}
-          name="All NIFTI"
+          name="All NIFTY"
           isSelected={tag === "All NIFTI"}
         />
         <ProjectTag
