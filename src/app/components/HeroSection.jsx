@@ -56,7 +56,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] sm:text-2xl mb-6 lg:text-2xl py-0.5">
-          My full time job is working as a technical leader to deliver platform capabilities which enable internal software engineering organizations to deliver performant, stable, and reliable experiences into the hands of digital customers. I also pair up with folk that have disabilities and train them on how to support job seekers to create online profiles and personal sites. NIFTY stands for "Neat Innovations For Transforming You".
+          My full time job is working as a technical leader to deliver platform capabilities which enable internal software engineering organizations to deliver performant, stable, and reliable experiences into the hands of digital customers. I am also super passionate about a new venture called "NIFTY". Its basically job coaching people with disabilities so they have the skills to create personal sites for job seekers. NIFTY stands for "Neat Innovations For Transforming You".
           </p>
           <div>
             <Link
