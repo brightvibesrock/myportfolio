@@ -48,7 +48,7 @@ const HeroSection = () => {
                 2000,
                 " a believer in focused product work and team empowerment.",
                 2000,
-                " energized when TRUST within a team fuels a greater sense of shared purpose."
+                " energized when collective TRUST within a team fuels a sense of shared purpose."
               ]}
               wrapper="span"
               speed={50}
