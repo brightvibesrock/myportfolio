@@ -64,7 +64,7 @@ const HeroSection = () => {
             <Link
               href="/#projects"
               className="px-6 inline-block py-3 w-full sm:w-fit text-2xl font-bold rounded-full mr-4 bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3">
-              NIFTY Stuff
+              Projects
             </Link>
             <Link
               href="Resume.pdf"  target= "blank"
