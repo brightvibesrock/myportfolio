@@ -67,7 +67,7 @@ const HeroSection = () => {
               Projects
             </Link>
             <Link
-              href="Resume.pdf"  target= "blank"
+              href="jenny.pdf"  target= "blank"
               className="px-1 inline-block py-0.5 w-full sm:w-fit text-2xl rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
             >
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-0.5">
